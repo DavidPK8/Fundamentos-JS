@@ -84,4 +84,6 @@ console.log(findTwo) */
 
 const newDato = profileUser.map(i => `${i}`) 
 
-console.log(newDato)
+const[name, lastname, edad] = profileUser  // Desustructuracion de arreglos
+
+console.log(name, lastname, edad) 
