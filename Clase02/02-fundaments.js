@@ -28,7 +28,7 @@ console.log(user)
 
 const{name, edad, friends, activo} = user // Desustructuracion de objetos
 console.log(name)
-*/
+
 
 const user = {
     name: "David",
@@ -57,4 +57,31 @@ const newproduct = {
 }
 
 console.log(newproduct)
+*/
 
+const profileUser = ["David", "Vallejo", "20"]
+
+// const skills = ["Front", "Back"]
+
+// profileUser.push(skills) Push agrega el elemento al final
+
+// profileUser.unshift(skills) Unshift agrega el elemento al inicio
+
+// profileUser.pop() Pop elimina el ultimo dato
+
+// profileUser.shift() Shift elimina el primer elemento
+
+console.log(profileUser)
+
+/* const findOne = profileUser.find((e) => e == "Juan") // Busca el elemento indicado dentro del array
+
+const findTwo = profileUser.find((e) => e == "David")
+
+console.log(findOne)
+console.log(findTwo) */
+
+// const newData = profileUser.filter(e => e != "Peter") // Filtra todos los datos y devuelve el array a excepcion del elemento indicado
+
+const newDato = profileUser.map(i => `${i}`) 
+
+console.log(newDato)
