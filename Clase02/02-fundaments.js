@@ -52,7 +52,7 @@ const nombre = "Laptop"
 const price = 5000
 
 const newproduct = {
-    nombre,  // (ES6) Nombres abreviados de propiedades
+    nombre,  // Regla dictaminada por (ES6) y nombrada como: Nombres abreviados de propiedades 
     price
 }
 
