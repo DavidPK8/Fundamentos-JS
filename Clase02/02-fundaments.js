@@ -42,8 +42,19 @@ const address = {
 }
 
 const{name, ciudad, activo} = user
+console.log(name, ciudad, activo)
 
 const allInformation = {...user,...address}  // Juntar dos objetos en uno solo // Los spread operator se usa en argumentos (....) // Los Parametros Rest se usan en funciones ...args
 
 console.log(allInformation)
+
+const nombre = "Laptop"
+const price = 5000
+
+const newproduct = {
+    nombre,  // (ES6) Nombres abreviados de propiedades
+    price
+}
+
+console.log(newproduct)
 
