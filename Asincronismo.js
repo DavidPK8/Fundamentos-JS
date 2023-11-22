@@ -42,7 +42,7 @@ fs.readFile('ejemplo.txt', 'utf-8', function (error, contenido) {
 
 console.log("Fin del programa");
 
-console.log("\n***  Promeasas  ***")
+console.log("\n***  Promesas  ***")
 
 // La funcion devuelve una promesa
 function ejemploPromesa() {
