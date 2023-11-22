@@ -17,7 +17,7 @@ const saludar = require('./modulo')
 const mensajeSaludo = saludar('David')
 console.log(mensajeSaludo)
 
-console.log("\n***  CommonJS  ***")
+console.log("\n***  ES Module  ***")
 
 // Archivo modulo.js
 
